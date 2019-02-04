@@ -30,6 +30,4 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array + array.push('foo');
 }
 
-const array = [1];
-
 element = [...array, 'foo'];
