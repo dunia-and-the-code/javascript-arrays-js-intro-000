@@ -9,3 +9,7 @@ cities = ["Philadelphia", ...cities];
 const cats = ["Milo", "Garfield"];
 
 const moreCats = ["Felix", ...cats];
+
+function addElementToBeginningOfArray(red, yello, blue, green) {
+
+function destructivelyAddElementToBeginningOfArray(red, yellow, blue, green) { 
