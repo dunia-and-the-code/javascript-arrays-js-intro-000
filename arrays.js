@@ -12,7 +12,8 @@ const moreCats = ["Felix", ...cats];
 
 
 function addElementToBeginningOfArray(array, element) {
-return array + element;
+  []
+  return array + element;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
