@@ -35,7 +35,7 @@ element = [...array, 'foo'];
 //
 
 function accessElementInArray(array, index) {
-  return array
+  return accessElementInArray[2];
 }
 
 var array = [1, 2, 3];
