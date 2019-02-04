@@ -11,7 +11,7 @@ const cats = ["Milo", "Garfield"];
 const moreCats = ["Felix", ...cats];
 
 function addElementToBeginningOfArray(array, element) {
-return colors + color;
+return array + element;
 }
 
   
