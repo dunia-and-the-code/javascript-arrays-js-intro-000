@@ -10,6 +10,7 @@ const cats = ["Milo", "Garfield"];
 
 const moreCats = ["Felix", ...cats];
 
+//
 function addElementToBeginningOfArray(array, element) {
 return array + element;
 }
@@ -31,3 +32,5 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 element = [...array, 'foo'];
+//
+
