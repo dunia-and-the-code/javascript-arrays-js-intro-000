@@ -14,8 +14,6 @@ function addElementToBeginningOfArray(colors, color) {
 return colors + color;
 }
 
-function destructivelyAddElementToBeginningOfArray() { 
-}
   
 var colors = ["red", "yellow", "green", "blue"]
   
