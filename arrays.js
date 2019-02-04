@@ -10,15 +10,15 @@ const cats = ["Milo", "Garfield"];
 
 const moreCats = ["Felix", ...cats];
 
-function addElementToBeginningOfArray(array, element) {
-return array + element;
+function addElementToBeginningOfArray(array, 'foo') {
+return array + 'foo';
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-	return array + array.unshift("foo"); 
+	return array + array.unshift('foo'); 
 }
 
 const array = [1]
   
-element = ["foo", ...array];
+element = ['foo', ...array];
 
