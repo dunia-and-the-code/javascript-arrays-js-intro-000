@@ -10,12 +10,13 @@ const cats = ["Milo", "Garfield"];
 
 const moreCats = ["Felix", ...cats];
 
-function addElementToBeginningOfArray(colors, color = ["orange", ...colors]) {
+function addElementToBeginningOfArray(colors, color) {
+return colors + color;
 }
 
 function destructivelyAddElementToBeginningOfArray() { 
 }
   
-  var colors = ["red", "yellow", "green", "blue"]
+var colors = ["red", "yellow", "green", "blue"]
   
-  element
+color = ["orange", ...colors];
