@@ -35,10 +35,10 @@ element = [...array, 'foo'];
 //
 
 var accessElementInArray = [1, 2, 3];
-
+index = accessElementInArray[2];
 
 function accessElementInArray(array, index) {
-  return accessElementInArray[2];
+  return index;
 }
 
 
