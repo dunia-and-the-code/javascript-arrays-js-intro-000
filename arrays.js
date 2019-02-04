@@ -20,5 +20,5 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 var array = [1]
   
-element = ["foo", ...colors];
+element = ["foo", ...array];
 
