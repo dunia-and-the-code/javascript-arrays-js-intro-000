@@ -11,5 +11,10 @@ const cats = ["Milo", "Garfield"];
 const moreCats = ["Felix", ...cats];
 
 function addElementToBeginningOfArray(array, element) {
-
-function destructivelyAddElementToBeginningOfArray(red, yellow, blue, green) { 
+}
+function destructivelyAddElementToBeginningOfArray() { 
+}
+  
+  var array = ["red", "yellow", "green", "blue"]
+  
+  element
