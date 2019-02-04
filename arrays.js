@@ -10,7 +10,7 @@ const cats = ["Milo", "Garfield"];
 
 const moreCats = ["Felix", ...cats];
 
-function addElementToBeginningOfArray(array, 'foo') {
+function addElementToBeginningOfArray(array, string = 'foo') {
 return array + 'foo';
 }
 
