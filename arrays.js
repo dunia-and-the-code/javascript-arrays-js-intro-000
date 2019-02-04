@@ -10,6 +10,6 @@ const cats = ["Milo", "Garfield"];
 
 const moreCats = ["Felix", ...cats];
 
-function addElementToBeginningOfArray(red, yello, blue, green) {
+function addElementToBeginningOfArray(array, element) {
 
 function destructivelyAddElementToBeginningOfArray(red, yellow, blue, green) { 
