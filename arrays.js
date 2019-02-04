@@ -31,9 +31,11 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array + array.push('foo');
 }
 
-element = [...array, 'foo'];
+element = (...array, 'foo');
 //
 
-function accessElementInArray () {
+function accessElementInArray(array, ) {
+  return 
 }
-}
+
+var array = [1, 2, 3]
