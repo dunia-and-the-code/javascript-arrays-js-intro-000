@@ -31,11 +31,11 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array + array.push('foo');
 }
 
-element = (...array, 'foo');
+element = [...array, 'foo'];
 //
 
-function accessElementInArray(array, ) {
+function accessElementInArray(array, index) {
   return 
 }
 
-var array = [1, 2, 3]
+var array = [1, 2, 3];
